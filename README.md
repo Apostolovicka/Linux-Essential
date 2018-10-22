@@ -3,6 +3,7 @@
 ## Table of contents
 * [Viewing/Monitoring Processes](https://github.com/Apostolovicka/Linux-Essential#viewingmonitoring-processes)
   * [ps - process state](#ps---process-state)
+  * [w](#w)
 
 ### Viewing/Monitoring Processes
 > Every process on Linux has process ID or so called PID.
@@ -43,3 +44,21 @@ options:
 * **u** - display the processes belonging to the specified usernames
 * **x** - include processes which do not have a controlling terminal (TT = ??) - adds to the list processes that have   
         no controlling terminal, such as daemons, which are programs that are launched during booting
+
+### W
+> Wiki: The command w on many Unix-like operating systems provides a quick summary of every user logged into a computer,
+> what each user is currently doing, and what load all the activity is imposing on the computer itself. 
+> The command is a one-command combination of several other Unix programs: who, uptime, and ps -a 
+
+```
+> w
+
+11:12am up 608 day(s), 19:56,  6 users,  load average: 0.36, 0.36, 0.37
+User     tty       login@   idle   what
+smithj   pts/5      8:52am         w
+jonesm   pts/23    20Apr06    28   -bash
+harry    pts/18     9:01am     9   pine
+peterb   pts/19    21Apr06         emacs -nw html/index.html
+janetmcq pts/8     10:12am  3days  -csh
+singh    pts/12    16Apr06   5:29  /usr/bin/perl -w perl/test/program.pl
+```
