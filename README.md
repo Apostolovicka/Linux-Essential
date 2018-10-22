@@ -2,8 +2,11 @@
 
 ## Table of contents
 * [Viewing/Monitoring Processes](https://github.com/Apostolovicka/Linux-Essential#viewingmonitoring-processes)
+  * [ps](#ps)
 
 ### Viewing/Monitoring Processes
+> Every process on Linux has process ID or so called PID.
+
 | Command | Description |
 |---|---|
 | **ps** | Detailed information about processes |
@@ -14,3 +17,5 @@
 | **mpstat** | Multiple processor usage |
 | **w** | List active processes for all users |
 | TO ADD | iostat / numastat / strace |
+
+#### PS 
